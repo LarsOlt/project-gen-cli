@@ -1,0 +1,19 @@
+{
+  "name": "project-generator",
+  "version": "1.0.0",
+  "description": "Generates projects from the command line",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Lars Öltjenbruns",
+  "license": "ISC",
+  "bin": {
+    "generate": "./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^7.2.0",
+    "ncp": "^2.0.0"
+  }
+}
