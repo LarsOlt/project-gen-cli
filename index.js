@@ -8,6 +8,7 @@ const exec = require("child_process").execSync;
 const CHOICES = fs.readdirSync(`${__dirname}/templates`);
 const CURRENT_DIR = process.cwd();
 
+
 const QUESTIONS = [
   {
     name: "projectChoice",
