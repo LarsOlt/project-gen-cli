@@ -2,11 +2,14 @@
   "name": "project-generator",
   "version": "1.0.0",
   "description": "Generates projects from the command line",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LarsOlt/project-generator"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "dev": "node index"
   },
-  "keywords": [],
   "author": "Lars Öltjenbruns",
   "license": "ISC",
   "bin": {
