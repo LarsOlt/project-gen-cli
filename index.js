@@ -12,7 +12,7 @@ const QUESTIONS = [
   {
     name: "projectChoice",
     type: "list",
-    message: "What project template would you like to generate?",
+    message: "Which project template would you like to use?",
     choices: CHOICES,
   },
   {
@@ -25,8 +25,7 @@ const QUESTIONS = [
       }
 
       if (/^([A-Za-z\-\_\d])+$/.test(input)) return true;
-      else
-        return "Project name may only include letters, numbers, underscores and hashes.";
+      else return "Project name may only include letters, numbers, underscores and hashes.";
     },
   },
 ];
@@ -42,6 +41,7 @@ inquirer.prompt(QUESTIONS).then((answers) => {
 
     console.log("\nInstalling dependencies...\n");
 
+    // cd inside the created folder and install the dependencies
     exec(
       `cd ${targetFolderPath} && npm i`,
       { stdio: "inherit" },
