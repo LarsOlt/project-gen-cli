@@ -1,10 +1,10 @@
 {
-  "name": "project-generator",
+  "name": "project-gen-cli",
   "version": "1.0.0",
-  "description": "Generates projects from the command line",
+  "description": "Generate projects from the command line",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LarsOlt/project-generator"
+    "url": "https://github.com/LarsOlt/project-gen-cli"
   },
   "main": "index.js",
   "scripts": {
