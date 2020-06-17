@@ -1,14 +1,11 @@
 {
-  "name": "spotify-api",
-  "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "description": "Description here",
+  "repository": {},
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "tsc-watch --onSuccess \"node dist/index.js\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "typescript": "^3.9.5",
     "tsc-watch": "^4.2.8"
