@@ -1,5 +1,5 @@
 # project-generator
-CLI for creating a new project. Similar to [create-react-app](https://github.com/facebook/create-react-app).
+Personal CLI for creating a new project. Similar to [create-react-app](https://github.com/facebook/create-react-app).
 ## Installation
 
 This will create a simlink for ```generate```.
