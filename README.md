@@ -3,8 +3,10 @@ Personal CLI for creating a new project. Similar to [create-react-app](https://g
 
 
 
-## Installation & Update
-```npm i -g```<br>
+## Installation
+Clone this repo and use the command:
+
+```npm run setup```<br>
 
 This will install the package globally and add it to the PATH.
 
