@@ -21,6 +21,6 @@
     "ncp": "^2.0.0"
   },
   "devDependencies": {
-    "semantic-release": "^17.0.8"
+    "semantic-release": "^17.2.3"
   }
 }
