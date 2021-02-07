@@ -1,5 +1,6 @@
 # project-generator
 Personal CLI for creating a new project. Similar to [create-react-app](https://github.com/facebook/create-react-app).
+Automatically updates to the newest version from Github.
 
 
 
