@@ -18,5 +18,5 @@ The created folder will be named after the provided project name.
 
 ## Templates
 
-* <b>node-ts<br></b>
+* **node-ts**<br>
   Minimal nodejs typescript setup with vscode debugging
