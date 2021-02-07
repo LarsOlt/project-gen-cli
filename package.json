@@ -1,6 +1,6 @@
 {
   "name": "project-gen-cli",
-  "version": "0.0.0-development",
+  "version": "v1.0.0",
   "description": "Personal CLI tool to generate a new project from a template",
   "repository": {
     "type": "git",
