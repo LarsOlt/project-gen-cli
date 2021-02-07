@@ -1,26 +1,22 @@
 {
   "name": "project-gen-cli",
   "version": "0.0.0-development",
-  "description": "Generate projects from the command line",
+  "description": "Personal CLI tool to generate a new project from a template",
   "repository": {
     "type": "git",
     "url": "https://github.com/LarsOlt/project-gen-cli"
   },
   "main": "index.js",
   "scripts": {
-    "dev": "node index",
-    "semantic-release": "semantic-release"
+    "dev": "node index"
   },
   "author": "Lars Öltjenbruns",
   "license": "ISC",
   "bin": {
-    "generate": "./index.js"
+    "new-project": "./index.js"
   },
   "dependencies": {
     "inquirer": "^7.2.0",
     "ncp": "^2.0.0"
-  },
-  "devDependencies": {
-    "semantic-release": "^17.2.3"
   }
 }

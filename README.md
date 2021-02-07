@@ -1,5 +1,17 @@
 # project-generator
 Personal CLI for creating a new project. Similar to [create-react-app](https://github.com/facebook/create-react-app).
 
+
+
+## Installation
+```npm i -g```<br>
+
+This will install the package globally and add it to the PATH.
+
 ## Usage
-![shell screenshot](https://github.com/LarsOlt/project-generator/blob/master/screenshots/shell_demo.png?raw=true)
+
+Go into the folder where the new project folder should be and use the command:<br>
+
+```new-project```
+
+The created folder will be named after the provided project name.
