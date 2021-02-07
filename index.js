@@ -31,7 +31,6 @@ const QUESTIONS = [
   },
 ];
 
-
 inquirer.prompt(QUESTIONS).then((answers) => {
   const { projectChoice, projectName } = answers;
 
@@ -51,5 +50,7 @@ inquirer.prompt(QUESTIONS).then((answers) => {
         console.log(stdout);
       }
     );
+
+    console.log("\nHappy hacking!\n")
   });
 });
